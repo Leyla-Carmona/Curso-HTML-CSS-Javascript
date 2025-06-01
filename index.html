@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="src/javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#title">Inicio</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#learning">Información</a></li>
+                <li><a href="variables.html">Ejercicios de clase</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="title">Curso Html-CSS-Javascript</h1>
+    </main>
+    <div id="home">
+        <div id="home1">
+            <h3 class="divhome">¿A quién va dirigido?</h3>
+            <article>
+                <p class="divhome">Curso enfocado a principiantes del desarrollo web</p>
+                <a class="divhome" href="Plan_estudio.pdf" upload="Cronograma">Visualizar acá el temario detallado</a>
+            </article>
+        </div>
+        <div id="home2">
+            <h3 class="divhome" id="skills">Habilidades que se aprenderán</h3>
+            <ul class="divhome">
+                <li class="divhome item1">Creación básica de un sitio web</li>
+                <li class="divhome item2">Diseño básico</li>
+                <li class="divhome item3">Elementos javascript</li>
+            </ul>
+        </div>
+    </div>
+    <h3 id="learning">Temario</h3>
+    <ol>
+        <div id="modelo">
+            <figure>
+                <li>HTML</li>
+                <a target="_blank" href="https://es.wikipedia.org/wiki/HTML">
+                    <img src="html.svg" alt="logo html">
+                </a>
+                <figcaption>HyperText Markup Language</figcaption>
+            </figure>
+            <figure>
+                <li>CSS</li>
+
+                <a target="_blank" href="https://es.wikipedia.org/wiki/CSS">
+                    <img src="css.svg" alt="logo css">
+                </a>
+                <figcaption>Cascading Style Sheets</figcaption>
+            </figure>
+            <figure>
+                <li>JavaScript</li>
+
+                <a target="_blank" href="https://es.wikipedia.org/wiki/JavaScript">
+                    <img src="javascript.svg" alt="logo javascript">
+                </a>
+                <figcaption>JS</figcaption>
+            </figure>
+        </div>
+    </ol>
+    <footer>
+        <form action="" id="formulario">
+            <h2>¡Quiero información del curso!</h2>
+            <label for="nombre">Nombre del interesado:</label>
+            <input class="inputs" id="nombre" type="text" name="nombre" placeholder="Ana Martinez" required required
+                pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo letras">
+            <br>
+            <label for="correo">Correo del interesado:</label>
+            <input class="inputs" id="email" type="email" name="correo" placeholder="ejemplo@outlook.com" required>
+            <br>
+            <label for="comentarios">Comente acá brevemente que le gustaría saber (Opcional)</label>
+            <textarea class="inputs" id="comentarios" type="text" name="comentarios" type="text"
+                placeholder="Tengo interés en..."></textarea>
+            <input id="inputbuttom" type="submit" value="Enviar">
+        </form>
+        <a href="https://cursos.databoosters.mx/">Página principal</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/variables_css.css">
+    <title>Document</title>
+    <script src="src/variables_javascript.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Ejemplos prácticos</h1>
+    </main>
+    <div id="formulariopractica">
+        <h2>Variables en Javascript</h2>
+        <i>Clase 15 -</i> <b>Variables en Javascript</b>
+        <p>Dale click al botón para comprobar que tipo de variable es</p>
+        <ul>
+            <li>Let tipo1 = 'Hola'</li>
+            <li>Let tipo2 = 1998</li>
+            <li>Let tipo3 = true;</li>
+        </ul>
+        <button id="buttonform">Comprobar</button>
+        <p id="datatype"></p>
+        <hr>
+        <h2>Comprobar mis datos</h2>
+        Dato 1
+        <input type="text" id="dato1"><br>
+        Dato 2
+        <input type="text" id="dato2"><br> <br>
+        <button id="buttonCheck">Comprobar mis datos</button>
+        <p id="datatype_practice"></p>
+    </div>
+    <br>
+    <div id="calculadora">
+        <h2>Calculadora</h2>
+        <i>Clase 16 -</i> <b>Operadores en Javascript</b>
+        <form action="">
+            <input type="number" id="number1">
+            <input type="number" id="number2">
+            <br>
+            <button type="button" class="numerador" onclick="sumar()">Sumar</button>
+            <button type="button" class="numerador" onclick="restar()">Restar</button>
+            <button type="button" class="numerador" onclick="multiplicar()">Multiplicación</button>
+            <button type="button" class="numerador" onclick="dividir()">División</button>
+        </form>
+        <input type="text" id="resultado" value="0" disabled>
+    </div>
+    <br>
+    <div id="comparador">
+        <h2>Comparador de datos ==, ===, <,>
+        </h2>
+        <i>Clase 17 -</i> <b>Comparación de datos</b>
+        <form action="" id="comparadorForm">
+            <input type="text" id="comparador1" required>
+            <input type="text" id="comparador2" required>
+            <button type="submit">Comparación</button>
+        </form>
+        <p id="resultadocomparador"></p>
+    </div>
+    <br>
+    <div id="ciclos">
+        <h2>Ciclos en Javascript</h2>
+        <i>Clase 18 -</i> <b>Ciclos For y While</b>
+        <br>
+        <h3>Ciclo for</h3>
+        <input type="number" id="inputFor">
+        <button onclick="ejecutarFor()">Ejecutar ciclo For</button>
+        <p id="resultadoFor"></p>
+        <h3>Ciclo While</h3>
+        <input type="number" id="inputWhile">
+        <button onclick="iniciarWhile()">Iniciar ciclo While</button>
+        <button onclick="detenerWhile()">Detener ciclo While</button>
+        <p id="resultadoWhile"></p>
+    </div>
+    <br>
+    <div id="funciones">
+        <h2>Funciones en Javascript</h2>
+        <i>Clase 19 -</i> <b>Funciones en Javascript</b>
+        <br> <br>
+        <button onclick="traermisCursos()">Traer información</button>
+        <p id="resultadoFunciones"></p>
+    </div>
+    <br>
+    <div id="DOM">
+        <h2>HTML Generado por DOM</h2>
+        <i>Clase 20 -</i> <b>DOM en Javascript</b>
+        <br><br>
+        <button onclick="crearDiv()">Crear div por medio del DOM</button>
+        <button onclick="eliminarDiv()">Eliminar DIV por medio del DOM</button>
+    </div>
+    <br>
+    <div id="eventos">
+        <h2>Eventos en Javascript</h2>
+        <i>Clase 21 -</i> <b>Eventos en Javascript</b>
+        <div id="eventosdiv">
+        <div id="eventos1">Soy un Div</div>
+        <div id="eventos2" tabindex="0">Presione una tecla</div>
+         </div>
+    </div>
+</body>
+
+</html>

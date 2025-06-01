@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "titulo": "Qué es el desarrollo web?",
+    "temas": [
+      "Partes y enfoques (Frontend, Backend)",
+      "Terminología básica (API, etc.)"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Introducción a las herramientas básicas de trabajo",
+    "temas": [
+      "Uso de Visual Studio Code, extensiones como Live Server",
+      "Creación, instalación y uso de GitHub Desktop",
+      "Estilización básica de la página de inicio de GitHub"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "HTML Estático",
+    "temas": [
+      "Etiquetas <html>, <head>, <body>, <footer>, <div>, <article>"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Etiquetas de texto",
+    "temas": [
+      "Uso de <h1>, <p>, <ul>, <li>, <a>",
+      "Atributos básicos: <script>, <style>"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Imágenes y enlaces",
+    "temas": [
+      "Etiqueta <img> (src, alt, width, height)",
+      "Crear enlaces con <a>"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Formularios básicos",
+    "temas": [
+      "Elementos <input>, <textarea>, <button>",
+      "Optimización web con uso de imágenes tipo SVG y SEO básico"
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Introducción a CSS",
+    "temas": [
+      "Qué es CSS y cómo vincularlo con HTML",
+      "Uso de ID, clases y variables globales"
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Modificando fondo y diseño",
+    "temas": [
+      "Propiedades de color, font-size, background-color, maquetación",
+      "Margin, Padding y el modelo de caja"
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Flexbox básico",
+    "temas": [
+      "display: flex, justify-content, align-items, etc."
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Grid Básico",
+    "temas": [
+      "Display grid"
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "Transiciones en CSS",
+    "temas": [
+      "Propiedad transition"
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "Validación de formularios (HTML + CSS)",
+    "temas": [
+      "Atributos required, pattern"
+    ]
+  },
+  {
+    "id": 13,
+    "titulo": "Animaciones en CSS",
+    "temas": [
+      "Uso de @keyframes para animaciones simples"
+    ]
+  },
+  {
+    "id": 14,
+    "titulo": "Introducción a JavaScript",
+    "temas": [
+      "Qué es JavaScript, cómo enlazar con HTML"
+    ]
+  },
+  {
+    "id": 15,
+    "titulo": "Variables en JavaScript",
+    "temas": [
+      "Declaración (let, const, var)",
+      "Tipos de datos: string, int, boolean"
+    ]
+  },
+  {
+    "id": 16,
+    "titulo": "Operadores en JavaScript",
+    "temas": [
+      "Operadores matemáticos (+, -, *, /)",
+      "Operaciones básicas"
+    ]
+  },
+  {
+    "id": 17,
+    "titulo": "Comparación de datos",
+    "temas": [
+      "Operadores (==, ===, >, <)",
+      "Estructuras de control if/else"
+    ]
+  },
+  {
+    "id": 18,
+    "titulo": "Bucles (for, while)",
+    "temas": ["Uso de For y While en sitios web"]
+  },
+  {
+    "id": 19,
+    "titulo": "Funciones en JavaScript",
+    "temas": [
+      "Declaración y uso de funciones"
+    ]
+  },
+  {
+    "id": 20,
+    "titulo": "Manipulación del DOM",
+    "temas": [
+      "Acceder y modificar elementos HTML con JavaScript"
+    ]
+  },
+  {
+    "id": 21,
+    "titulo": "Eventos en JavaScript",
+    "temas": [
+      "onclick, onmouseover, etc."
+    ]
+  },
+  {
+    "id": 22,
+    "titulo": "Proyecto Final",
+    "temas": [
+      "Despliegue a GitHub Pages",
+      "Compartir el proyecto con la comunidad"
+    ]
+  }
+]
